@@ -288,29 +288,4 @@ public class Practico3 {
         
         return copia;
     }
-
-    /*7) Se tiene un tiro al blanco electrónico. Inicialmente, están todas las luces apagadas. Al disparar con
-    un láser y acertar, se enciende la respectiva luz y queda prendida. Se desea un programa que, a partir
-    de la matriz con la información de cuáles sensores están prendidos o apagados, calcule el puntaje. El
-    puntaje se otorga de la siguiente forma: cualquier sensor prendido del borde exterior vale 1 punto. Los
-    del reborde inmediatamente contiguo hacia el centro valen 2 cada uno; en el siguiente reborde vale 3
-    cada sensor prendido y así sucesivamente incrementando de a un punto.*/
-  /*  public static int puntaje(int[][] mat) {
-        int puntaje = 0;
-        
-        for (int i = 0; i < mat.length; i++) {
-            for (int j = 0; j < mat[0].length; j++) {
-                if (mat[i][j] == 1) {
-                    puntaje += 
-                    if (i == 0 || j == 0 || i == mat.length - 1 || j == mat[0].length - 1) {
-                        puntaje++;
-                    } 
-                    
-                }
-            }
-        }
-        
-        return puntaje;
-    }
-*/
 }
